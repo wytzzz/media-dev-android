@@ -78,7 +78,7 @@ public class CameraPreviewActivity extends Activity {
 					int videoBitRate = 700 * 1024;
 					int frameRate = 24;
 					boolean useHardWareEncoding = false;
-					String outputPath = "/mnt/sdcard/a_songstudio/preview_soft.h264";
+					String outputPath = "/mnt/sdcard/preview_soft.h264";
 //					boolean useHardWareEncoding = true;
 //					String outputPath = "/mnt/sdcard/a_songstudio/preview_hw.h264";
 					previewScheduler.startEncoding(width, height, videoBitRate, frameRate, useHardWareEncoding, outputPath);

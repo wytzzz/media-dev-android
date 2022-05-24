@@ -233,6 +233,7 @@ void MVRecordingPreviewController::switchFilter(){
 }
 
 void MVRecordingPreviewController::startRecording(){
+	//次数的texid是经过rotation和scale过后的tex
 	encoder->createEncoder(eglCore, renderer->getInputTexId());
 	isEncoding = true;
 }
